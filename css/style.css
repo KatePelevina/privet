@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    color: #333;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+a {
+    text-decoration: none;
+}
+.title {
+    font-family: 'Lora';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+span {
+    color: #2E86AA;
+}
+header {
+    background-color: #D4EFFA;
+    padding: 30px;
+}
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+.header__item {
+}
+.header__logo {
+}
+.header__logo-link {
+}
+.header__logo-img {
+}
+.header__contacts {
+    display: flex;
+    
+}
+.header__contacts-phone {
+    margin-right: 30px;
+}
+.header__contacts-button {
+}
+.header__contacts-btn {
+    background: linear-gradient(180deg, #FEF792 0%, #F3D179 100%);
+    box-shadow: 0 0 10px #F3D179;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 15px;
+    font-family: 'Nunito', sans-serif;
+    color: #4F4D4D;
+    font-weight: 700;
+    font-size: 14px;
+    color: #4F4D4D;
+    
+}
+
+.main {
+    background-color: #D4EFFA;
+    margin-bottom: 200px;
+    
+}
+.main .container {
+    padding: 0 0 0 15px;
+}
+
+
+.main__inner {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.main__content {
+    padding-top: 130px;
+    padding-left: 30px;
+    max-width: 550px;
+}
+.main__title h1 {
+    
+    font-weight: bold;
+    font-size: 28px;
+    /* line-height: 61px; */
+    margin-bottom: 20px;
+}
+.main__title span {
+    font-size: 60px;
+}
+
+.main__subtitle {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.main__button {
+   
+}
+.main-btn {
+    background: linear-gradient(180deg, #FEF792 0%, #F3D179 100%);
+    box-shadow: 0 0 10px #F3D179;
+    border-radius: 20px;
+    border: none;
+    padding: 20px 45px;
+    font-family: 'Nunito', sans-serif;
+    color: #4F4D4D;
+    font-weight: 700;
+    font-size: 20px;
+    color: #4F4D4D;
+}
+
+.main__image{
+    position: relative;
+}
+.main__text {
+    position: absolute;
+    bottom: 200px;
+    left: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 30px;
+    max-width: 300px;
+    opacity: 0.8;
+    font-weight: 700;
+}
+.main__text span {
+    font-size: 24px;
+}
+
+
+
+.second {
+    margin-bottom: 200px;
+    position: relative;
+}
+.second__inner {
+    
+}
+.second__inner-title {
+    font-size: 36px;
+    line-height: 46px;
+    color: #4F4D4D;
+    max-width: 580px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.second__inner-decor--01{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    
+}
+.second__inner-decor--02 {
+    position: absolute;
+    top: -50px;
+    right: 100px;
+}
+
+
+
+
+
+.actions {
+    background-color: #D4EFFA;
+    padding: 100px;
+}
+.action__title {
+    margin-bottom: 50px;
+}
+.actions__items {
+    display: flex;
+    justify-content: space-between;
+}
+.actions__item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px 30px;
+}
+.actions__item + .actions__item {
+    margin-left: 20px;
+}
+.actions__item-text {
+}
+
+
+.engineering {
+    padding: 100px 30px;
+    background-color: #D4EFFA;
+}
+
+.engineering__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+.engineering__items {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.engineering__item {
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    line-height: 49px;
+    margin-bottom: 20px;
+}
+.engineering__item-img {
+    margin-right: 30px;
+}
+.engineering__item-text {
+    
+}
+
+.excursion {
+
+}
+.excursion__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.excursion__title{
+   
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 70px;
+    max-width: 900px;
+    margin-bottom: 30px;
+}
+.excursion__items {
+    max-width: 500px;
+    
+}
+.excursion__item {
+    
+    display: flex;
+    margin-bottom: 30px;
+}
+.excursion__item-img {
+    margin-right: 30px;
+}
+.excursion__image {
+    margin: 0;
+}
+
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form__content {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 50px;
+    background: #FDFDFD;
+    box-shadow: 0px 0px 20px #D8D8D8;
+    
+}
+.form__content-title {
+    margin-bottom: 20px;
+}
+.form__content input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
